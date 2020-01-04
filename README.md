@@ -2,8 +2,7 @@
 HRS Reconstruction System
 
 ## What is HRS Reconstruction System?
-HRS Reconstruction System is an experiment in computer vision. In this program
-I try to replace difficult mathematical calculations with a rendering on a video card. 
+HRS Reconstruction System is an experiment in computer vision. This program is an attempt to replace mathematical calculations with a rendering on a video card. 
 
 ## System requirements 
 qt5-devel package.
