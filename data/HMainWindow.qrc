@@ -1,0 +1,56 @@
+<RCC>
+  <qresource prefix="AddFile" >
+    <file>list-add.png</file>
+  </qresource>
+  <qresource prefix="HelpAbout" >
+    <file>help-about.png</file>
+  </qresource>
+  <qresource prefix="Icon" >
+    <file>icon.png</file>
+  </qresource>
+  <qresource prefix="SplashScreen" >
+    <file>splash.png</file>
+  </qresource>
+  <qresource prefix="ClearReconstruction" >
+    <file>edit-clear.png</file>
+  </qresource>
+  <qresource prefix="SaveProjectAs" >
+    <file>document-save-as.png</file>
+  </qresource>
+  <qresource prefix="CloseTab" >
+    <file>tab-close.png</file>
+  </qresource>
+  <qresource prefix="AlphaBgr" >
+    <file>alphabgr.png</file>
+  </qresource>
+  <qresource prefix="Cancel" >
+    <file>dialog-cancel.png</file>
+  </qresource>
+  <qresource prefix="EditDescription" >
+    <file>tools-wizard.png</file>
+  </qresource>
+  <qresource prefix="ApplyMatrix" >
+    <file>dialog-ok-apply.png</file>
+  </qresource>
+  <qresource prefix="StopReconstruction" >
+    <file>process-stop.png</file>
+  </qresource>
+  <qresource prefix="CreateProject" >
+    <file>document-new.png</file>
+  </qresource>
+  <qresource prefix="viewAsMeshAction" >
+    <file>roll.png</file>
+  </qresource>
+  <qresource prefix="SaveProject" >
+    <file>document-save.png</file>
+  </qresource>
+  <qresource prefix="OpenProject" >
+    <file>document-open.png</file>
+  </qresource>
+  <qresource prefix="StartReconstruction" >
+    <file>system-run.png</file>
+  </qresource>
+  <qresource prefix="RemoveFile" >
+    <file>list-remove.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,117 @@
+<ui version="4.0" >
+ <class>HEditDescriptionDialog</class>
+ <widget class="QDialog" name="HEditDescriptionDialog" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Frame description</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" >
+   <item>
+    <widget class="QPlainTextEdit" name="FrameDescription" />
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+      <spacer name="horizontalSpacer" >
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton" >
+       <property name="text" >
+        <string>Apply</string>
+       </property>
+       <property name="icon" >
+        <iconset resource="../data/HMainWindow.qrc" >
+         <normaloff>:/ApplyMatrix/dialog-ok-apply.png</normaloff>:/ApplyMatrix/dialog-ok-apply.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2" >
+       <property name="text" >
+        <string>Cancel</string>
+       </property>
+       <property name="icon" >
+        <iconset resource="../data/HMainWindow.qrc" >
+         <normaloff>:/Cancel/dialog-cancel.png</normaloff>:/Cancel/dialog-cancel.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="./data/HMainWindow.qrc" />
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>HEditDescriptionDialog</receiver>
+   <slot>ApplyST()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>287</x>
+     <y>287</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>264</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>pressed()</signal>
+   <receiver>HEditDescriptionDialog</receiver>
+   <slot>CancelST()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>369</x>
+     <y>284</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>366</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>HEditDescriptionDialog</sender>
+   <signal>destroyed()</signal>
+   <receiver>HEditDescriptionDialog</receiver>
+   <slot>CancelST()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>212</x>
+     <y>149</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>212</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ApplyST()</slot>
+  <slot>CancelST()</slot>
+ </slots>
+</ui>

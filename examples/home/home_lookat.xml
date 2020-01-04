@@ -1,0 +1,23 @@
+<!DOCTYPE HRSWorkspace>
+<workspace>
+ <project name="Home" >
+  <frames>
+   <frame image_file="./0.png" description="No description." default_frame_type="gluLookAt" name="0" >
+    <glMatrix aa="0.7071" bb="1" cc="0.7071" ab="0" bc="0" ac="0.7071" ca="-0.7071" ba="0" cb="0" />
+    <gluLookAt centerX="0" centerY="0" centerZ="0" eyeX="2.26207" eyeY="0" upX="2.26207" eyeZ="-1.06445" upY="1" upZ="-1.06445" />
+   </frame>
+   <frame image_file="./2.png" description="No description." default_frame_type="gluLookAt" name="2" >
+    <glMatrix aa="-0.7071" bb="1" cc="-0.7071" ab="0" bc="0" ac="-0.7071" ca="0.7071" ba="0" cb="0" />
+    <gluLookAt centerX="0" centerY="0" centerZ="0" eyeX="-2.11082" eyeY="0" upX="-2.11082" eyeZ="1.33957" upY="1" upZ="1.33957" />
+   </frame>
+   <frame image_file="./1.png" description="No description." default_frame_type="gluLookAt" name="1" >
+    <glMatrix aa="-0.7071" bb="1" cc="-0.7071" ab="0" bc="0" ac="0.7071" ca="-0.7071" ba="0" cb="0" />
+    <gluLookAt centerX="0" centerY="0" centerZ="0" eyeX="1.20438" eyeY="0" upX="1.20438" eyeZ="2.19077" upY="1" upZ="2.19077" />
+   </frame>
+   <frame image_file="./3.png" description="No description." default_frame_type="gluLookAt" name="3" >
+    <glMatrix aa="0.7071" bb="1" cc="0.7071" ab="0" bc="0" ac="-0.7071" ca="0.7071" ba="0" cb="0" />
+    <gluLookAt centerX="0" centerY="0" centerZ="0" eyeX="-1.46946" eyeY="0" upX="-1.46946" eyeZ="-2.02254" upY="1" upZ="-2.02254" />
+   </frame>
+  </frames>
+ </project>
+</workspace>

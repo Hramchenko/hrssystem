@@ -1,0 +1,15 @@
+<!DOCTYPE HRSWorkspace>
+<workspace>
+ <project name="Cap" >
+  <frames>
+   <frame image_file="./side.png" description="Side view..." default_frame_type="gluLookAt" name="Side view" >
+    <glMatrix aa="1" bb="1" cc="1" ab="0" bc="0" ac="0" ca="0" ba="0" cb="0" />
+    <gluLookAt centerX="0" centerY="0" centerZ="0" eyeX="0" eyeY="2" upX="0" eyeZ="0" upY="2" upZ="-2" />
+   </frame>
+   <frame image_file="./top.png" description="No description." default_frame_type="gluLookAt" name="Top view" >
+    <glMatrix aa="1" bb="1" cc="1" ab="0" bc="0" ac="0" ca="0" ba="0" cb="0" />
+    <gluLookAt centerX="0" centerY="0" centerZ="0" eyeX="0" eyeY="0" upX="0" eyeZ="2" upY="1" upZ="2" />
+   </frame>
+  </frames>
+ </project>
+</workspace>
